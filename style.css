@@ -1,8 +1,8 @@
 body {
     display: flex;
-    flex: 1;
+    flex-direction: column;
     margin: 0;
-    flex-wrap: wrap;
+    
 }
 
 .top-page {
@@ -63,6 +63,7 @@ a {
     border-radius: 5px;
     width: 100px;
     height: 33px;
+    border-style: none;
 }
 
 .sub-image {
@@ -76,4 +77,97 @@ a {
 
 .sub-text {
     margin-bottom: 0px;
+}
+
+.top-mid-page {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 32px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+img, .info {
+    max-width: 150px;
+}
+
+
+.info {
+    text-align: center;
+}
+
+
+.bottom-mid-page {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    max-width: 75%;
+}
+
+.author {
+    display: flex;
+    align-self: flex-end;
+    padding-right: 125px;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.bottom-page {
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: #3882F6;
+    padding: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-header {
+    color: white;
+    font-size: 26px;
+}
+
+.square-text {
+    color: white;
+    font-size: 16px;
+}
+
+.square-button {
+    color: white;
+    background-color: #3882F6;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    width: 100px;
+    height: 40px;
 }
